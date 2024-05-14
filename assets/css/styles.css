@@ -605,7 +605,7 @@ img {
 
 /*=============== SCROLL UP ===============*/
 
-.scroll-up {
+.scrollup{
   position: fixed;
   bottom: 3rem;
   right: 1rem;
@@ -617,9 +617,11 @@ img {
   font-size: 1.25rem;
   z-index: var(--z-tooltip);
   transition: bottom .4s, transform .4s;
+  padding: .5rem;
+  border-radius: 16px;
 }
 
-.scroll-up:hover {
+.scrollup:hover {
   transform: translateY(-.5rem);
 }
 
