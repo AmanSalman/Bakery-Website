@@ -1,0 +1,126 @@
+/*==================== Contact Section ====================*/
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.contact__info {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact__data {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.contact__icon {
+    font-size: 1.5rem;
+    color: #ff8303;
+    margin-right: 1rem;
+}
+
+.contact__subtitle {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+    margin-right: 10px;
+}
+
+.contact__text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.contact__form-photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact__description{
+    margin-bottom: 1.5rem;
+}
+
+.contact__form {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact__inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.contact__input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.contact__input:focus {
+    outline: none;
+    border-color: #ff8303;
+}
+
+.contact__input::placeholder {
+    color: #aaa;
+}
+
+.contact__input[type="text"]:focus,
+.contact__input[type="email"]:focus,
+.contact__input[type="textarea"]:focus {
+    border-color: #ff8303;
+}
+
+.contact__input[type="submit"] {
+    cursor: pointer;
+    background-color: #ff8303;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+}
+
+.contact__input[type="submit"]:hover {
+    background-color: #e57206;
+}
+
+.contact__photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/* media query */
+
+
+@media screen and (max-width: 775px){
+
+    .contact__form-photo {
+        grid-template-columns: 1fr;
+    }
+    
+    .photo__img {
+        width: 20%;
+    }
+}
+

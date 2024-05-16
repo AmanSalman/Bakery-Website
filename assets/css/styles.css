@@ -391,6 +391,7 @@ img {
 
 .about__container{
   row-gap: 4rem;
+  position: relative;
 }
 
 .about__data{
@@ -607,7 +608,7 @@ img {
 
 .scrollup{
   position: fixed;
-  bottom: 3rem;
+  bottom: -50%;
   right: 1rem;
   background-color: var(--container-color);
   color: var(--title-color);
