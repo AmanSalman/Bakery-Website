@@ -12,10 +12,6 @@
     border: var(--text-color-light) dashed 2px;
 }
 
-.about__container {
-    grid-template-columns: 30% 70%;
-    column-gap: 1rem;
-}
 /* .section {
     padding-block: 11rem 5rem;
 } */
